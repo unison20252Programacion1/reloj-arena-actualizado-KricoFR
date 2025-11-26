@@ -28,13 +28,17 @@ def main():
     # Intentar convertir la altura a entero
     try:
         # TODO: Convertir m_str a entero y asignarlo a m
+        m=int(m_str)
         pass
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
+        print("Error: la altura debe ser un valor entero"
         pass
 
     # TODO: llamar a la función triangulo_simetrico con los parámetros m y s
+              
     # ERRATA: llamar a la función reloj_arena con los parámetros m y s.
 
+        reloj_arena(m,s)
 if __name__ == "__main__":
     main()
