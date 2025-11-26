@@ -6,10 +6,8 @@ def reloj_arena(m: int, s: str) -> str:
         Print("Error la altura debe ser mayor a cero")
         return
         # Parte 1: Triangulo creciente
-    for i in range(1, m + 1):
-        print(s * i)
+    for i in range(m):
+        print(" " * i + s * (2*(m-i)-1))
         # Parte 2: Triangulo decreciente    
-    for i in range(m - 1, 0 -1):
-        print(s * i)
-    # TODO: implementar la lógica para generar el reloj de arena en ASCII
-    pass
+    for i in range(m - 2, -1, -1):
+        print(" " *i+s*(2*(m-i)-1))
