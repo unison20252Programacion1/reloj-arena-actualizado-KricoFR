@@ -32,7 +32,7 @@ def main():
         
     except ValueError:
         # TODO: imprimir "Error: La altura debe ser un numero entero" y salir
-        print("Error: la altura debe ser un valor entero"
+        print("Error: la altura debe ser un valor entero")
         return
 
     # TODO: llamar a la función triangulo_simetrico con los parámetros m y s
