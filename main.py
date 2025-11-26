@@ -24,7 +24,7 @@ def main():
 
     m_str = data[0].strip() # Primera línea: altura máxima (como texto)
     s = data[1]             # Segunda línea: carácter (o cadena) para la figura
-
+    s = s[0]
     # Intentar convertir la altura a entero
     try:
         # TODO: Convertir m_str a entero y asignarlo a m
